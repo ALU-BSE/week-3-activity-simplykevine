@@ -135,3 +135,4 @@ GET https://api.github.com/users/octocat
   * **Relate to Familiar Experiences:** Connect API interactions to everyday web activities.
   * **Encourage Experimentation:** Encourage trying different endpoints and parameters.
   * **Error Handling:** Use errors as learning opportunities.
+
