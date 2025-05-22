@@ -1,0 +1,47 @@
+### 1. Get public info about a user
+GET https://api.github.com/users/octocat
+
+###
+
+### 2. Get the list of public repositories of a user
+GET https://api.github.com/users/octocat/repos
+
+###
+
+### 3. Get a specific repository
+GET https://api.github.com/repos/octocat/Hello-World
+Accept: application/vnd.github.v3+json
+
+###
+
+### 4. Search for repositories using a query (example: python projects)
+GET https://api.github.com/search/repositories?q=python
+
+###
+
+### 5. Get the list of followers for a user
+GET https://api.github.com/users/octocat/followers
+
+###
+
+### 6. Authenticated request to get your own repositories
+GET https://api.github.com/user/repos
+Authorization: Bearer {{GITHUB_TOKEN}}
+
+###
+
+
+### 7. Get rate limit information for your IP or token
+GET https://api.github.com/rate_limit
+
+###
+
+### 8. Get information about GitHub itself
+GET https://api.github.com/
+
+###
+
+### 9. Get a user's gists (code snippets)
+GET https://api.github.com/users/octocat/gists
+
+###
